@@ -53,6 +53,7 @@ function Movie(props) {
     );
   }
 
+  // Cut overview at 250 char
   let overview = props.overview;
   if (overview.length > 250) {
     overview = overview.substring(0, 250) + "...";
