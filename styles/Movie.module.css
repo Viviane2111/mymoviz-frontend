@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 220px;
+  height: 580px;
   margin: 20px;
 }
 
@@ -14,8 +15,8 @@
 .textContainer {
   /* display: flex;
   flex-direction: column;
-  height: 230px;
   margin: 10px 0px 10px 00px; */
+  height: 230px;
   margin: 10px 0 10px;
 }
 
@@ -26,7 +27,8 @@
 .description {
   font-weight: 300;
   font-size: 14px;
-  /* overflow: hidden; */
+  height: 154px;
+  overflow: hidden;
 }
 
 .iconContainer {
