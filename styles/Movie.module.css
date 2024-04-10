@@ -12,10 +12,11 @@
 }
 
 .textContainer {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   height: 230px;
-  margin: 10px 0px 10px 00px;
+  margin: 10px 0px 10px 00px; */
+  margin: 10px 0 10px;
 }
 
 .name {
@@ -25,11 +26,11 @@
 .description {
   font-weight: 300;
   font-size: 14px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .iconContainer {
   display: flex;
   flex-direction: column;
-  font-size: 12px;
+  font-size: 13px;
 }
