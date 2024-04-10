@@ -13,6 +13,10 @@ function Home() {
     fetch("https://mymoviz-backend-ten-eta.vercel.app/movies")
       .then((response) => response.json())
       .then((data) => {
+        let overview = data.overview;
+        if (overview.length > 250) {
+          overview = overview.slice(0, 250) + "...";
+        }
         setMoviesData(data.movies);
       });
   }, []);
